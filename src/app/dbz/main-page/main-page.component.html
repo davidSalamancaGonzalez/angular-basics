@@ -1,0 +1,20 @@
+<h1>Dragon ball Z </h1>
+<hr>
+
+<div class="row">
+
+<div class="col">
+    <!-- [DATA] viene del componente hijo y personajes lo coje del main-page (componente PADRE) -->
+    <app-personajes></app-personajes>
+
+</div>
+
+<div class="col">
+    <app-agregar 
+    [nuevo] = "nuevo"
+    ></app-agregar>
+    <!-- [personajes] lo asociamos a una propiedad de nuestra clase -->
+   
+</div>
+
+</div>
